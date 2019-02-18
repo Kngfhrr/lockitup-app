@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.container{
+    display: flex;
+    text-align: center;
+    width: 800px;
+}
+
+.HowP{
+    font-family: roboto;
+}
+
+.h1{
+    font-family: roboto;
+}
+
+.FAQ{
+    padding-left: 10px;
+}
+
+.HowH1{
+    font-family: Vidaloka;
+}
+

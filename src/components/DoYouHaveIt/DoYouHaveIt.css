@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* СЫГЕЙН БЛЯ */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.castle{
+  left: 11.4%;
+  right: 11.4%;
+  top: 0%;
+  bottom: 0%;
+}
+
+
+.faq{
+
+ width: 800px;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.h1{
+  font-family: Parisienne;
+  width: 244.35px;
+  height: 86.56px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 64px;
+  color: #000000;
+  mix-blend-mode: normal;
+  transform: rotate(0.43deg);
+}
+
+.creBtn{
+
+
+height:60px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 10PX;
+height: 44px;
+font-family: Vidaloka ;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 36px;
+color: #FFFFFF;
+width: 821px;
+height: 60px;
+background: #CE2B2B;
+border-radius: 24px;
+}
+
+.h2{
+  width: 800px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+color: #000000;
+}
+
+.inp1{
+  width: 400px;
+  height: 40px;
+  margin-top: 15px;
+  background: #FCFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: slategray;
+  border-radius: 10px;
+  outline: none;
+}
