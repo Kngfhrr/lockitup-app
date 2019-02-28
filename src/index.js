@@ -16,8 +16,8 @@ render (
     
     <Router>
         <div>
-            <Route path='/' component={App}/>
-            <Route path='/:secret' component={App}/>
+            <Route exact path='/' component={App}/>
+            {/* <Route path='/:secret' component={App}/> */}
             <Route  path='/CreaSecretFor' component={CreaSecPage}/>
             <Route path='/HowItWork' component={HowItwork}/>
             <Route path='/StartPage' component={CreaSecPage}/>

@@ -1,19 +1,11 @@
 import React, {Component} from 'react';
 import './CreaSecPage.css'
 import { Link } from 'react-router-dom'
-import Dropdown from 'react-dropdown';
-import 'react-dropdown/style.css';
+import Bootstrap from '../bootstrapDropDown/boot.js'
+// import 'react-dropdown/style.css';
 
 
-const techCompanies = [
-  { label: "1 day", value: 1 },
-  { label: "10 minuts", value: 2 },
-  { label: "1 hour", value: 3 },
-];
 
-const onDateSelect = (e) => {
-    console.log(e);
-}
 export default class CreaSecPage extends Component {
 
 
@@ -37,7 +29,7 @@ export default class CreaSecPage extends Component {
                 </p>
                 <div className="row">
                     <l className='howlong'>How long needs to keep your secret?</l>
-                    <Dropdown options={techCompanies} className="dropdown" onChange={onDateSelect} value={'test'} placeholder="Select an option" />
+                    <Bootstrap className='row'/>
                 </div>
                 <div className='unlock'>Phrase to unlock your secret</div>
                     <input className='inputunlock' placeholder='Enter your Phrase'></input>

@@ -3,7 +3,7 @@ import './App.css'
 import StartPage from './components/startPage/startPage'
 
 
-import { matchPath, Route } from 'react-router'
+import { matchPath } from 'react-router'
 
 
 
