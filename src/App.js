@@ -22,7 +22,7 @@ export default class App extends Component {
     const secretId = match.params.secret;
     const pass = 'leet'
 
-    const response = await fetch(`http://localhost:8080/secret/${secretId}?passphrase=${pass}`, { queryParams: { passphrase: 'test' } });
+    const response = await fetch(`http://localhost:8080/secret/${secretId}?passphrase=${pass}`, { queryParams: { passphrase: 'test1' } });
     const secretres = await response.json();
     console.log(secretres)
     console.log('redirect to secret');
