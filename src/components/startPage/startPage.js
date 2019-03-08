@@ -8,18 +8,18 @@ export default class StartPage extends Component {
     render(){
         return (
     
-    <container class="container">
+    <div className="container">
   
-        <div class="pic"><img  src={mainLogo}  alt="fireSpot"/> </div> 
+        <div className="pic"><img  src={mainLogo}  alt="fireSpot"/> </div> 
 
-        <div class="h1">Lock it up</div>
+        <div className="h1">Lock it up</div>
 
-        <div class="h2">That service can help you to create hidden messages and only your complice will able see it</div>
+        <div className="h2">That service can help you to create hidden messages and only your complice will able see it</div>
 
         
-        <div><Link to='/CreaSecretFor'><button class="startBtn">Create new Secret</button></Link></div>
-        <div><Link to='/DoYouHaveIt'><button class="startBtn2">Open Secret</button></Link></div>
-    </container>
+        <div><Link to='/CreaSecretFor'><button className="startBtn">Create new Secret</button></Link></div>
+        <div><Link to='/DoYouHaveIt'><button className="startBtn2">Open Secret</button></Link></div>
+    </div>
 
 )
         }}

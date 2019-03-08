@@ -9,26 +9,26 @@ import Bootstrap from '../bootstrapDropDown/boot.js'
 export default class CreaSecPage extends Component {
 
 
-    async componentDidMount() {
-        console.log(this.props);
-        // const response = await fetch('https://pokeapi.co/api/v2/pokemon/ditto');
-        // const pokemon = await response.json();
-        // console.log(pokemon)
-    }
+    // async componentDidMount() {
+    //     console.log(this.props);
+    //     const response = await fetch('http://localhost:8080/secret/leet1337?passphrase=leet');
+    //     const pokemon = await response.json();
+    //     console.log(pokemon)
+    // }
     
     render(){
         return (
-            <container class="container">
+            <div className="container">
             <div className='size'>
-                <center><div class="h1">Lock it up</div></center>
-                    <hr class="line" align="center" width="800" size="1" color="#000000" />
-                <div className='faq'><Link to='/HowItWork'> How it works?</Link> <Link to='/FAQ' class="FAQ">F.A.Q</Link> </div>  
+                <center><div className="h1">Lock it up</div></center>
+                    <hr className="line" align="center" width="800" size="1" color="#000000" />
+                <div className='faq'><Link to='/HowItWork'> How it works?</Link> <Link to='/FAQ' className="FAQ">F.A.Q</Link> </div>  
                 <h2 className='createnewsecret'>Create a new Secret</h2>
                 <p>
                     <textarea name="comment" className='newSecret' placeholder='Start type your secret'/>
                 </p>
                 <div className="row">
-                    <l className='howlong'>How long needs to keep your secret?</l>
+                    <li className='howlong'>How long needs to keep your secret?</li>
                     <Bootstrap className='row'/>
                 </div>
                 <div className='unlock'>Phrase to unlock your secret</div>
@@ -38,7 +38,7 @@ export default class CreaSecPage extends Component {
                 </div>
             </div>
 
-        </container>
+        </div>
         )
     }
 }

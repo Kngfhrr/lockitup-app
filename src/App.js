@@ -20,18 +20,13 @@ export default class App extends Component {
       return;
     }
     const secretId = match.params.secret;
-    console.log(secretId);
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon/ditto');
-    const pokemon = await response.json();
-    console.log(pokemon)
+    const pass = 'leet'
+
+    const response = await fetch(`http://localhost:8080/secret/${secretId}?passphrase=${pass}`, { queryParams: { passphrase: 'test' } });
+    const secretres = await response.json();
+    console.log(secretres)
     console.log('redirect to secret');
   }
-state = {
-  newSecret: "",
-  phrase: "",
-  arrPhrase: [],
-  arrSecret: []
-};
 
 textAreaSecret = (e) => {
   this.setState({ newSecret: e.target.value });

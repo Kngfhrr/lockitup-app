@@ -2,9 +2,16 @@ import React, {Component} from 'react';
 import unlock from'./unlock.png';
 import './HereIsSecretFor.css'
 import { Link } from 'react-router-dom'
+// import DoYouHaveIt from '../DoYouHaveIt/DoYouHaveIt'
 
 export default class HereIsSecretFor extends Component {
 
+// componentDidMount() {
+// fetch(`http://localhost:8080/secret/${this.state.phrase}`)
+// .then(res => res.json())
+// .then(mockSecrets => this.setState({mockSecrets},()=> console.log( 'secret:', mockSecrets)) );
+
+//    }
 render(){
     return (
     

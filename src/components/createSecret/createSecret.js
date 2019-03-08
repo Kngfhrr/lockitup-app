@@ -9,19 +9,19 @@ export default class CreateSecret extends Component {
 
 return (
     
-    <container class="container">
+    <div className="container">
 
-        <div class="h1">Lock it up</div>
-        <hr class="line" align="center" width="800" size="1" color="#000000" />
-        <div className='faq'><Link to='/HowItWork'> How it works?</Link> <Link to='/FAQ' class='FAQ'>F.A.Q</Link> </div>
-        <p class="got">Got it!</p>
-        <p class="your">your secret will be stored securely</p>
-        <div class="castle"><img  src={mainLogo}  alt="fireSpot"/> </div> 
-        <div class="h2">Share this link only with your complice! </div>
-        <input class="inp1" placeholder="https://lockitup.io/e8f3s612dg4"/>
-        <div><Link to='/CreaSecretFor'><button class="creBtn">Create new Secret</button></Link></div>
+        <div className="h1">Lock it up</div>
+        <hr className="line" align="center" width="800" size="1" color="#000000" />
+        <div className='faq'><Link to='/HowItWork'> How it works?</Link> <Link to='/FAQ' className='FAQ'>F.A.Q</Link> </div>
+        <p className="got">Got it!</p>
+        <p className="your">your secret will be stored securely</p>
+        <div className="castle"><img  src={mainLogo}  alt="fireSpot"/> </div> 
+        <div className="h2">Share this link only with your complice! </div>
+        <input className="inp1" placeholder="https://lockitup.io/e8f3s612dg4"/>
+        <div><Link to='/CreaSecretFor'><button className="creBtn">Create new Secret</button></Link></div>
 
-    </container>
+    </div>
 )
     }
     }
